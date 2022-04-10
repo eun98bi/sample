@@ -8,9 +8,9 @@
 body { text-align: center; background-color: #FFD6E3;}
 header { padding-top: 10px; padding-bottom: 10px; background-color: #FFC9CC; 
 position:fixed; width:100%;
-top: 0; left: 0; text-align: left; padding-left: 200px; padding-right: 200px;}
+top: 0; left: 0;;}
 
-.logo { font-size: 40px; color: #EB3A5F; font-family: 'LeeSeoyun'; display: inline-block; }
+.logo { font-size: 40px; color: #EB3A5F; font-family: 'LeeSeoyun'; display: inline-block; float:left; padding-left:200px;}
 
 .logo a:link, .logo a:visited,  .logo a:hover, .logo a:active
 {
@@ -21,7 +21,7 @@ top: 0; left: 0; text-align: left; padding-left: 200px; padding-right: 200px;}
 
 
 
-.menu { display: inline-block; float: right; padding-top: 7px;}
+.menu { display: inline-block; float: right; padding-top: 7px; padding-right:200px;}
 .category { display: inline-block; font-size: 17px; margin: 5px; padding: 5px; padding-left: 10px; padding-right: 10px; border-radius: 10px; color: #FF6577; border:none;
   position:relative;
   transition:800ms ease all;
