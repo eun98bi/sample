@@ -60,9 +60,9 @@ top: 0; left: 0;;}
 position:fixed; width:100%;
 top: 0; left: 0; text-align: center;}
     
-.logo { font-size: 40px; display: block; float:none; padding:0; }
+.logo { font-size: 40px; display: block; float:none; padding-left:0; }
 
-.menu { display: inline-block; float:none; padding-top: 7px; padding:0;}
+.menu { display: inline-block; float:none; padding-top: 7px; padding-right:0;}
 
 
 
