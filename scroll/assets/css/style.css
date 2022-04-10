@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { text-align: center; background-color: #FFD6E3; margin: 2px; padding: 2px; }
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+  }
+::-webkit-scrollbar-track {
+    background-color: grey;
+  }
+
+header { padding-top: 10px; padding-bottom: 10px; background-color: #FFC9CC; 
+position:fixed; width:100%;
+top: 0; left: 0; }
+
+.logo { font-size: 40px; color: #EB3A5F; font-family: 'LeeSeoyun';}
+.logo a:link, .logo a:visited,  .logo a:hover, .logo a:active
+{
+    color: #EB3A5F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.category { display: inline-block; font-size: 17px; margin: 5px; padding: 5px; color: #FF6577; border:none;
+  position:relative;
+  transition:800ms ease all;
+  outline:none; cursor: pointer;}
+
+.category:before,.category:after{
+  content:'';
+  position:absolute;
+  top:1px;
+  right:0;
+  height:2px;
+  width:0;
+  background: #FF6577;
+  transition:300ms ease all;
+}
+.category:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.category:hover:before,.category:hover:after{
+  width:100%;
+  transition:600ms ease all;
+}
+
+.bodybox { margin-top: 150px; color: #FF6577; margin-left: 10px; margin-right: 10px;}
+.box { margin-top: 50px; }
+
+.title { font-weight: bold; font-size: 30px; margin-bottom: 10px; color: white; background-color: #FF6577; display: inline-block; padding-left: 13px; padding-right: 13px; border-radius: 100px;}
+
+.img-twitter { width: 50px; }
+.img-portfolio { width: 800px ; margin: 10px; max-width: 90%; display: inline-block;}
+
+.content { font-family: 'LeeSeoyun'; font-size: 18px; }
+
+footer { font-family: 'LeeSeoyun'; font-size: 12px; }
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+
