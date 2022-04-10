@@ -58,7 +58,7 @@ top: 0; left: 0;;}
     
     header { padding-top: 10px; padding-bottom: 10px;  
 position:fixed; width:100%;
-top: 0; left: 0; padding-left: 10px; padding-right: 10px; text-align: center;}
+top: 0; left: 0; text-align: center;}
     
 .logo { font-size: 40px; display: block; float:none;}
 
